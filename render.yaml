@@ -3,7 +3,7 @@ services:
   - type: web
     name: alist
     env: docker
-    repo: https://github.com/Dcklin/alist-render.git # optional
+    repo: https://github.com/Chriser001/alist-render.git # optional
     region: singapore # optional (defaults to oregon)
     plan: free # optional (defaults to starter)
     healthCheckPath: /
@@ -11,12 +11,14 @@ services:
       - key: PORT
         value: 5244
       - key: DB_TYPE
-        value: mysql
+        # value: mysql
+        sync: false
       - key: DB_HOST
         # value: db_host
         sync: false
       - key: DB_PORT
-        value: 3306
+        # value: 3306
+        sync: false
       - key: DB_USER
         # value: db_user
         sync: false
