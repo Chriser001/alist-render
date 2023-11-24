@@ -9,6 +9,6 @@ Recommended Free MySQL Databases:
 - https://db4free.net/
 - https://remotemysql.com/
 - https://www.freesqldatabase.com/
-
+- https://freedb.tech/
 ### password
 The initial password is randomly generated, and you can get it by checking the `logs`.
